@@ -1,0 +1,25 @@
+In order to run this application
+
+
+1. Create a Virtual Environment on Python
+    pip install virtualenv
+    virtualenv env
+
+2. Go to your project folder terminal and do
+    source env/bin/activate
+
+3. Now run this command
+    pip install -r requirements.txt
+    and now in your terminal create  a file called .env and paste data which is in .example.env
+
+
+4. Now after installation run this to start server
+    uvicorn main:app --reload
+
+5. Now go to chrome and type localhost:8000/docs , this will have all APIs
+
+Project Details
+1. Python
+2. FastAPI framework in Python
+3. Database PostgreSQL
+
